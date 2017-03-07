@@ -13,7 +13,7 @@ public class StdoutProducer extends AbstractProducer {
 		String output = r.toJSON(outputConfig);
 
 		if ( output != null )
-			System.out.println(output);
+			System.out.println(output + "&^#");
 
 		this.context.setPosition(r);
 	}
